@@ -35,11 +35,17 @@ h1{
     
 section{
      background: #474e5d;
-     height: 250px;
+     height: 240px;
      padding: 200px 100px;
-     text-align: center;
+     
 }   
-
+section.div img{
+    text-align: left;
+    vertical-align: central;
+    width: 500px;
+    height: 50px;
+}
+ 
 footer{
     background:#1abc9c;
     text-align: center;
@@ -55,7 +61,24 @@ footer{
 .portfolio{
     font-weight: bold;
 }
-div.linki{
-    color:#ffffff;
-    
+div.linki a{
+    color:#ffffff;      
 }
+div.linki a{
+   margin-left: 10px; 
+}
+
+img.lap {
+    border: 2px solid beige;
+}
+
+img.szklanka{
+    border: 2px solid beige;
+}
+
+img.czapa{
+    border: 2px solid beige;
+}
+
+
+
