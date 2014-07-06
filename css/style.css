@@ -7,6 +7,52 @@ header{
      padding: 50px 0;
      
     }
+    
+    
+    div.menu li{
+    display: inline-table;
+    text-align: center;
+    }
+    
+    .inf{
+    background: #ffffff;
+    text-decoration: none;
+    width: 90px;
+    height:90px;
+    border-radius: 60px;
+    
+    }
+    
+    .inf:hover{
+    background: #474e5d;
+    width:90px;
+    height:90px;
+    border-radius: 60px;
+    }
+    
+    .fol{
+    background: #ffffff;
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    text-decoration: none;
+    }
+    .fol:hover{
+    background: #474e5d;
+    }
+    
+    .knt:hover{
+    background: #474e5d;
+    }
+    
+    .knt{
+    background: #ffffff;
+    width: 90px;
+    height: 90px;
+    border-radius: 66px;
+    text-decoration: none;
+    }
+    
 .srodkowanie{
      width:800px;
      margin: 0 auto;
@@ -23,9 +69,7 @@ p{
      width: 445px;
      text-align: center;
      padding:10px 170px;
-     
-       
-    }
+  }
 h1{
      font-family: arial;
      color: #ffffff;
@@ -35,14 +79,15 @@ h1{
     
 section{
      background: #474e5d;
-     height: 240px;
+     height: 250px;
      padding: 200px 100px;
      
 }   
-section.div img{
-    text-align: center;
+section.div img {
     vertical-align: central;
-    height: 50px;
+    display: inline;
+    padding: 3px;
+    
 }
  
 footer{
@@ -64,7 +109,8 @@ div.linki a{
     color:#ffffff;      
 }
 div.linki a{
-   margin-left: 10px; 
+   margin-left: 2px; 
+   display: inline-table;
 }
 
 img.lap {
@@ -78,6 +124,4 @@ img.szklanka{
 img.czapa{
     border: 2px solid beige;
 }
-
-
 
