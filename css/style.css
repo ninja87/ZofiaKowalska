@@ -9,17 +9,24 @@ header{
     }
     
     
-    div.menu li{
+    div.menu ul{
     display: inline-table;
     text-align: center;
+    margin-right: 30px;
+    
+    
     }
     
-    .inf{
+    ul{
+        list-style-type: none;
+    }
+    a.inf{
     background: #ffffff;
     text-decoration: none;
     width: 90px;
     height:90px;
     border-radius: 60px;
+    line-height: 90px;
     
     }
     
@@ -28,6 +35,7 @@ header{
     width:90px;
     height:90px;
     border-radius: 60px;
+    line-height:90px;
     }
     
     .fol{
